@@ -1,0 +1,251 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+body {
+    text-align: center;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    display: block;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: "Cairo Roboto", sans-serif;
+    font-weight: 800;
+    line-height: 1.5;
+    letter-spacing: 1.7px;
+   padding-top: 0.4375rem;
+   color: #000000;
+}
+ nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1.875rem;
+    margin-right: 5rem;
+}
+nav li {
+    list-style: none;
+}
+li a {
+    color: #000000;
+    font-size: 1.375rem;
+    font-family: "Cairo", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+    letter-spacing: 2.2px;
+}
+
+  /* main section */
+
+section  {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 1.375rem;
+    background-image: url("./george-howden-ZpSr6fZqcRQ-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.95;
+}
+
+.content {
+    background-color: #eee;
+}
+section h2 {
+    font-size: 1.7rem;
+    font-family: "Roboto Cairo", sans-serif;
+    font-weight: bold;
+    color: #000000;
+    letter-spacing: 1.7px;
+    line-height: 1.2;
+    
+}
+section h4 {
+  font-size: 1.375rem;
+  font-family: "Cairo Roboto", sans-serif;
+  font-weight: bold;  
+  color: black;
+  margin: 0;
+  position: relative;
+  bottom: 10px;
+  line-height: 1.2;
+  letter-spacing: 1.3px;
+}
+
+/* second-section*/
+
+#portfolio {
+    margin: 0.0625rem auto;
+    padding: 0.75rem;
+}
+
+#portfolio h2 {
+    font-size: 1.7rem;
+    font-family: " Roboto Cairo", sans-serif;
+    color: #000000;
+    line-height: 1.2;
+    letter-spacing: 1.3px;
+}
+
+#portfolio h4 {
+    font-size: 1.375rem;
+    font-family: "Cairo Roboto", sans-serif;
+    color: #000000;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 1.3px;
+}
+
+.images-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow:  wrap;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+figure {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+figure img {
+    width: 200px;
+    padding: 10px;
+    opacity: 0.9;
+}
+
+figcaption  {
+    font-size: 1.375rem;
+    font-family: "Cairo Roboto", sans-serif;
+    font-weight: 700;
+    padding-left: 5px;
+    letter-spacing: 1.2px;
+}
+
+/*third-section*/
+
+#team-container {
+    display: block;
+    margin: 0 auto;
+   
+}
+
+#team-container h2 {
+    font-size: 2.3rem;
+    font-family: "Cairo Roboto", sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 1.3px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    left: 44px;
+}
+.team {
+    width: 100%;
+    height: auto;
+    margin-top: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url("https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-road.jpg");
+    opacity: 0.9;
+
+}
+
+.team .team-images {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-images img {
+    width: 200px;
+    height: auto;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+.team-images h3 {
+    color: #eee;
+    font-size: 1.375rem;
+    font-family: "Cairo Roboto", sans-serif;
+    font-weight: bolder;
+    line-height: 1.4;
+    letter-spacing: 1.2px;
+    padding-left: 70px;
+    text-align: center;
+}
+
+.team-images h4 {
+    color: #eee;
+    font-size: 1.25rem;
+    font-family: "Cairo Roboto", sans-serif;
+    font-weight: bold;
+    line-height: 1.3;
+    letter-spacing: 1.2px;
+    padding-left: 70px;
+    text-align: center;
+    position: relative;
+    bottom: 35px;
+}
+
+#contact {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+#contact h2 {
+    font-size: 2.2rem;
+    font-family: "Cairo Roboto",sans-serif;
+    font-weight: 600;
+    color: #000000;
+    line-height: 1.3;
+    letter-spacing: 1.2px;
+}
+
+
+#contact p {
+    font-size: 1.375rem;
+    font-family: "source sans pro cairo", sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 1.3px;
+    color: black;
+    text-align: center;
+}
+.footer {
+    display: block;
+}
+.footer p {
+    font-size: 1.125rem;
+    font-family: "source sans pro cairo", sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 1.3px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+   
+}
